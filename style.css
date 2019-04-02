@@ -1,166 +1,190 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    background-color: #E3E3E3
+
+body {
+  background-color: #e3e3e3;
 }
-.container{
-    width: 1000px;
-    margin-left: auto;
-    margin-right:auto;
-    margin-bottom: 10px;
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
-nav{
-    background-color: #089DE3;
+
+nav {
+  background-color: #089de3;
 }
-nav > a{
-    color:#FFF;
-    font-size: 30px;
-    text-decoration: none;
-          /* top right bottom left */
-    padding: 10px 10px 10px 30px; 
-    float: left;
+
+nav > a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  /* top right bottom left*/
+  padding: 10px 10px 10px 30px;
+  float: left;
 }
-nav > div > ul{
-    list-style: none;
-    float:right;
+
+.navbar > ul {
+  list-style: none;
+  float: right;
 }
-nav > div > ul > li{
-    display:inline-block;
-    line-height:60px; 
-    /* top-bottom right-left */
-    padding:0px 20px;   
+
+.navbar > ul > li {
+  display: inline-block;
+  line-height: 60px;
+  /*top-bottom right-left*/
+  padding: 0px 20px;
 }
-nav > div > ul:last-child{
-    padding-right:100px;   
+
+.navbar > ul:last-child {
+  padding-right: 100px;
 }
-nav > div > ul > li >a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #FFF;
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
 }
-nav > div > ul > li:hover{
-    background-color: #111111;
+
+.navbar > ul > li:hover {
+  background-color: #111111;
 }
-nav::after{
-    content:" ";
-    display: block;
-    clear:both;
-    *zoom: 1;
+
+nav::after {
+  content: " ";
+  display: block;
+  clear: both;
+  *zoom: 1;
 }
-/* NavBar End */
+
+/* Navbar End */
 
 /* Banner Start */
-.main-banner{
-    height:400px;
+.main-banner {
+  height: 400px;
 }
 .main-banner > img {
-    width: 100%;
-    height:400px;
-    object-fit: cover;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 /* Banner End */
 
-/* Service Section  */
+/* Service Start */
 .service {
-    background-color: #FFF;
+  background-color: #fff;
 }
+
 .service > h1 {
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
 }
-.col { 
-    width: 300px;
-    text-align: center;
-    margin-left: 20px;
-    border-right: solid #BEBEBE 1px;
-    float: left;
-    padding-bottom: 30px;
+
+.col {
+  width: 300px;
+  text-align: center;
+  margin-left: 20px;
+  border-right: solid #bebebe 1px;
+  padding-bottom: 30px;
+  float: left;
 }
-.col:last-child{
-    border-right: none;
+
+.col:last-child {
+  border-right: none;
 }
-.col > h3{
-    /* top-bottom right-left */
-    padding: 10px 0px;
-    color: grey;
+
+.col > h3 {
+  /* top-bottom right-left */
+  padding: 10px 0px;
+  color: grey;
 }
-.col > p{
-    padding-bottom: 20px;
+
+.col > p {
+  padding-bottom: 20px;
 }
-.col > a{
-    background-color: #089DE3;
-    color:#FFF;
-    font-size: 17px;
-    text-decoration: none;
-    border: solid white 2px;
-    padding:5px 10px;
-    border-radius: 20px;
+
+.col > a {
+  background-color: #089de3;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  border: solid white 2px;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
-.col > a:hover{
-    background-color: #111111;
-    border: solid #111111 2px;
+
+.col > a:hover {
+  background-color: #111111;
+  border: solid #111111 2px;
 }
-.service::after{
-    content:" ";
-    display: block;
-    clear:both;
-    *zoom: 1;
+.service::after {
+  content: " ";
+  display: block;
+  clear: both;
+  *zoom: 1;
 }
 /* Service End */
 
-/* Customer Section */
-.customer{
-    background-color:  #089DE3;
-    min-height: 300px;
-    text-align: center;
-    padding: 20px;
-    color: #FFF;
+/* Customer Start */
+.customer {
+  background-color: #089de3;
+  min-height: 300px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
 }
+
 .customer > h1 {
-    font-size: 30px;
-    padding-bottom: 20px;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
+
 .customer > img {
-    border: solid 2px;
-    width:100px;
-    height:100px;
-    border-radius: 50px;
-    object-fit: cover;
+  border: solid 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
 }
+
 .customer > p {
-    margin: 10px 200px;
-    font-size: 18px;
-    padding-bottom: 10px;
-    line-height: 25px;
+  font-size: 18px;
+  margin: 10px 200px;
+  padding-bottom: 10px;
+  line-height: 25px;
 }
-.customer > a{
-    color:#FFF;
-    font-size: 17px;
-    text-decoration: none;
-    border: solid white 1px;
-    padding: 5px 20px;
+
+.customer > a {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  border: solid white 1px;
+  padding: 5px 20px;
 }
-.customer > a:hover{
-    background-color: #111111;
-    border: solid #111111 1px;
+
+.customer > a:hover {
+  background-color: #111111;
+  border: solid #111111 1px;
 }
-/* Cutomer End */
+/* Customer End */
 
 /* Footer Start */
 footer {
-    background-color: black;
-    padding:10px;
-    text-align: center;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
 }
+
 footer > small {
-    color:#FFF;
+  color: #fff;
 }
-footer > small > a{
-    color: #FFF;
-    text-decoration: none;
+
+footer > small > a {
+  color: #fff;
+  text-decoration: none;
 }
 /* Footer End */
