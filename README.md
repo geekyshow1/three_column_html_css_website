@@ -7,7 +7,7 @@ This Project is created by GeekyShows using HTML and CSS.
 Project Published at https://geekyshow1.github.io/three_column_html_css_website/index.html
 
 
-Contact:
-GeekyShows
-contact@geekyshows.com
-www.geekyshows.com 
+Contact: <br />
+GeekyShows <br />
+contact@geekyshows.com <br />
+www.geekyshows.com  <br />
